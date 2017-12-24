@@ -33,7 +33,7 @@ public class Kata5 {
         st.execute(query);
         
         
-        String filename = new String(".\\src\\Kata5\\emails.txt");
+        String filename = ".\\src\\Kata5\\emails.txt";
         BufferedReader reader = new BufferedReader(new FileReader(new File(filename)));
         String mail;
         while((mail=reader.readLine())!= null){
